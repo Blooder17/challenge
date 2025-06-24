@@ -4,6 +4,7 @@
     <?php
     if (have_posts()): 
         while (have_posts()) : the_post();
+        // Only use the post data if the post is part of the item category
             if (in_category('item')) :
                 if(has_post_thumbnail()) : ?>
                     <div class="mb-4">

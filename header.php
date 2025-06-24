@@ -9,6 +9,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Automatic title changes depending on the page -->
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -18,7 +19,6 @@
                 <?php bloginfo('name'); ?>
             </span>
         </a>
-        <?php 
-        wp_nav_menu(array('menu_class' => 'nav nav-pills')) 
-        ?>
+        <!-- Navigation menu with some classes -->
+        <?php wp_nav_menu(array('menu_class' => 'nav nav-pills')) ?>
     </header>

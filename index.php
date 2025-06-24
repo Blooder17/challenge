@@ -6,10 +6,10 @@ get_header();
 ?>
 <main class="container">
     <section class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold text-body-emphasis">Wordpress Challenge</h1>
+        <h1 class="display-5 fw-bold text-body-emphasis">FromSoftware</h1>
         <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">
-                This website is made following the rules in the Wordpress Challenge document as training for WYperformance dev.
+                FromSoftware is a Japanese game development studio responsible for creating some of the most unique and internationally successful video games today.
             </p>
         </div>
     </section>

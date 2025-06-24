@@ -9,7 +9,7 @@ get_header();
     <?php 
 
 
-    // Set values for WP_Query to only look for posts that have the gallery
+    // Set values for WP_Query to only look for posts of the event type in order of the date inserted in the date field event_date
     $args = [
         'post_type' => 'event',
         'meta_key' => 'event_date',
@@ -40,6 +40,7 @@ get_header();
             </ul>
             <div class="pagination mt-4 d-flex justify-content-center column-gap-1">
                 <?php
+                // Pagination of the event posts being shown
                 echo paginate_links([
                     'total' => $query->max_num_pages,
 	                'current' => max(1, get_query_var('paged')),

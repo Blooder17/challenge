@@ -11,6 +11,7 @@ get_header();
     <?php 
     get_search_form();
     
+    // Set values for WP_Query to only look for posts that have the search terms and if they have the item category
     $s = get_search_query();
     $args = [
         's' => $s,

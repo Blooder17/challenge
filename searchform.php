@@ -1,3 +1,4 @@
+<!-- Very simple search form with some classes added for styling -->
 <form class="search-form my-4" role="search" method="get" action="<?php echo home_url('/'); ?>">
     <fieldset>
         <input class="form-control" type="text" name="s" value="<?php the_search_query(); ?>">
