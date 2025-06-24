@@ -1,0 +1,13 @@
+{
+    "name": "acf/gallery",
+    "title": "Gallery",
+    "description": "A custom gallery slider block",
+    "style": ["file:./gallery.css"],
+    "category": "media",
+    "icon": "images-alt2",
+    "keywords": ["gallery", "images", "slider"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "gallery.php"
+    }
+}

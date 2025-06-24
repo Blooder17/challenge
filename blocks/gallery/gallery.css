@@ -1,0 +1,10 @@
+:root {
+    --swiper-navigation-color: #fff;
+    --swiper-pagination-color: #fff;
+    --swiper-navigation-sides-offset: 25px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}

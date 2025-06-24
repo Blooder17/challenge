@@ -1,0 +1,16 @@
+.items-group .card {
+    transition: box-shadow .25s;
+}
+
+.items-group .card:hover {
+    box-shadow: #00000040 0px 2px 10px 2px;
+}
+
+.items-group .card-row {
+    justify-content: center;
+}
+
+.items-group .card-img-top {
+    height: auto;
+}
+

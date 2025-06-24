@@ -1,0 +1,13 @@
+{
+    "name": "acf/items-group",
+    "title": "Items Group",
+    "description": "A custom items group block",
+    "style": ["file:./items-group.css"],
+    "category": "widgets",
+    "icon": "excerpt-view",
+    "keywords": ["items", "group"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "items-group.php"
+    }
+}
