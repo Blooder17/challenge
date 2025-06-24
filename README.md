@@ -38,7 +38,7 @@
       Colocar wordpress-challenge na pasta wp-content/themes localizada na pasta de instalação do wordpress;
     </li>
     <li>
-      Selecionar o tema na dashboard do wordpress Appearance -> Themes -> Challenge;
+      Selecionar o tema na dashboard do wordpress <code>Appearance -> Themes -> Challenge</code>;
     </li>
   </ol>
 </section>
