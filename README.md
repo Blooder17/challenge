@@ -32,10 +32,10 @@
   <ol>
     <li>
       Clonar o repositório:<br/>
-      <code>git clone https://github.com/Blooder17/wordpress-challenge</code>
+      <code>git clone https://github.com/Blooder17/challenge</code>
     </li>
     <li>
-      Colocar wordpress-challenge na pasta wp-content/themes localizada na pasta de instalação do wordpress;
+      Colocar <code>challenge</code> na pasta wp-content/themes localizada na pasta de instalação do wordpress;
     </li>
     <li>
       Selecionar o tema na dashboard do wordpress <code>Appearance -> Themes -> Challenge</code>;
